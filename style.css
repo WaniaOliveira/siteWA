@@ -107,14 +107,14 @@ ul {
   left: 0;
   width: 100%;
   z-index: 999;
-  background: linear-gradient(135deg, rgba(255, 243, 232, 0.98), rgba(255, 248, 240, 0.96));
+  background: linear-gradient(135deg, rgba(255, 231, 209, 0.98), rgba(255, 243, 232, 0.96));
   backdrop-filter: blur(12px);
-  border-bottom: 1px solid rgba(242, 140, 0, 0.16);
+  border-bottom: 1px solid rgba(242, 140, 0, 0.22);
   transition: var(--transition);
 }
 
 .header.scrolled {
-  background: linear-gradient(135deg, rgba(255, 243, 232, 0.99), rgba(255, 248, 240, 0.97));
+  background: linear-gradient(135deg, rgba(255, 231, 209, 0.99), rgba(255, 243, 232, 0.97));
   box-shadow: var(--shadow-sm);
 }
 
