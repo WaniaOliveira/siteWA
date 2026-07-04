@@ -105,14 +105,14 @@ ul {
   left: 0;
   width: 100%;
   z-index: 999;
-  background: rgba(17, 17, 17, 0.95);
+  background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%);
   backdrop-filter: blur(12px);
-  border-bottom: 1px solid rgba(255, 106, 0, 0.1);
+  border-bottom: 1px solid rgba(107, 114, 128, 0.16);
   transition: var(--transition);
 }
 
 .header.scrolled {
-  background: rgba(17, 17, 17, 0.98);
+  background: linear-gradient(135deg, #eceef1 0%, #e5e7eb 100%);
   box-shadow: var(--shadow-sm);
 }
 
@@ -162,7 +162,7 @@ ul {
 }
 
 .nav-link {
-  color: var(--white);
+  color: var(--dark-gray);
   font-weight: 600;
   font-size: 0.98rem;
   position: relative;
@@ -200,7 +200,7 @@ ul {
   justify-content: center;
   flex-direction: column;
   gap: 0.3rem;
-  background: rgba(255, 106, 0, 0.12);
+  background: rgba(107, 114, 128, 0.12);
 }
 
 .nav-toggle span {
