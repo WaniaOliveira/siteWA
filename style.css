@@ -107,14 +107,14 @@ ul {
   left: 0;
   width: 100%;
   z-index: 999;
-  background: rgba(255, 255, 255, 0.96);
+  background: linear-gradient(135deg, rgba(255, 243, 232, 0.98), rgba(255, 248, 240, 0.96));
   backdrop-filter: blur(12px);
-  border-bottom: 1px solid rgba(15, 77, 168, 0.12);
+  border-bottom: 1px solid rgba(242, 140, 0, 0.16);
   transition: var(--transition);
 }
 
 .header.scrolled {
-  background: rgba(255, 255, 255, 0.98);
+  background: linear-gradient(135deg, rgba(255, 243, 232, 0.99), rgba(255, 248, 240, 0.97));
   box-shadow: var(--shadow-sm);
 }
 
@@ -164,7 +164,7 @@ ul {
 }
 
 .nav-link {
-  color: var(--primary);
+  color: var(--dark-gray);
   font-weight: 600;
   font-size: 0.98rem;
   position: relative;
@@ -202,7 +202,7 @@ ul {
   justify-content: center;
   flex-direction: column;
   gap: 0.3rem;
-  background: rgba(15, 77, 168, 0.1);
+  background: rgba(242, 140, 0, 0.12);
 }
 
 .nav-toggle span {
