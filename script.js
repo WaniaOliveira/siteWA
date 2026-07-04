@@ -145,6 +145,8 @@ document.addEventListener("DOMContentLoaded", () => {
   activateNavLink();
   window.addEventListener("scroll", activateNavLink);
 
+  const isTouchDevice = () => window.matchMedia('(hover: none) and (pointer: coarse)').matches || navigator.maxTouchPoints > 0;
+
   const openModal = (imageSrc, imageAlt) => {
     modalImage.src = imageSrc;
     modalImage.alt = imageAlt;
@@ -168,7 +170,14 @@ document.addEventListener("DOMContentLoaded", () => {
     const actionGroup = item.querySelector(".portfolio-back-actions");
 
     const toggleFlip = () => {
-      item.classList.toggle("is-flipped");
+      const isFlipped = item.classList.toggle("is-flipped");
+      if (isTouchDevice()) {
+        if (isFlipped) {
+          showWhatsApp();
+        } else {
+          hideWhatsApp();
+        }
+      }
     };
 
     const showWhatsApp = () => {

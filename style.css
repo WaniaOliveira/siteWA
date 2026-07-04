@@ -713,6 +713,14 @@ main section[id] {
   padding: 0.72rem 0.9rem;
 }
 
+@media (hover: none) and (pointer: coarse) {
+  .portfolio-item.is-flipped .portfolio-back-actions .whatsapp-btn {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+}
+
 .portfolio-back-actions .whatsapp-btn {
   background: linear-gradient(135deg, #0f172a, #1e293b);
   color: var(--white);
