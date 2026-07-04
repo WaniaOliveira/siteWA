@@ -107,14 +107,14 @@ ul {
   left: 0;
   width: 100%;
   z-index: 999;
-  background: linear-gradient(135deg, rgba(255, 231, 209, 0.98), rgba(255, 243, 232, 0.96));
+  background: linear-gradient(135deg, rgba(245, 130, 32, 0.16), rgba(245, 130, 32, 0.08));
   backdrop-filter: blur(12px);
-  border-bottom: 1px solid rgba(242, 140, 0, 0.22);
+  border-bottom: 1px solid rgba(245, 130, 32, 0.22);
   transition: var(--transition);
 }
 
 .header.scrolled {
-  background: linear-gradient(135deg, rgba(255, 231, 209, 0.99), rgba(255, 243, 232, 0.97));
+  background: linear-gradient(135deg, rgba(245, 130, 32, 0.18), rgba(245, 130, 32, 0.09));
   box-shadow: var(--shadow-sm);
 }
 
@@ -202,7 +202,7 @@ ul {
   justify-content: center;
   flex-direction: column;
   gap: 0.3rem;
-  background: rgba(242, 140, 0, 0.12);
+  background: rgba(245, 130, 32, 0.12);
 }
 
 .nav-toggle span {
