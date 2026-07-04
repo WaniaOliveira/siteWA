@@ -259,6 +259,18 @@ ul {
     filter: brightness(.55);
 }
 
+@media (max-width: 768px) {
+  .hero-slide img {
+    filter: brightness(.72);
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-slide img {
+    filter: brightness(.8);
+  }
+}
+
 .hero-overlay {
     position: absolute;
     inset: 0;
