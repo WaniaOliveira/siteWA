@@ -128,7 +128,7 @@ ul {
   display: inline-flex;
   align-items: center;
   gap: 0.85rem;
-  color: var(--white);
+  color: var(--color-text-dark);
   font-weight: 700;
 }
 
