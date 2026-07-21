@@ -1,4 +1,4 @@
-# WA Instalações
+# Instalações WA
 
 <p align="center">
   <img src="logo.png" alt="WA Instalações" width="220">
