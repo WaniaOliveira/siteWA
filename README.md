@@ -1,10 +1,10 @@
-# ⚡ WA Instalações
+# WA Instalações
 
 <p align="center">
   <img src="logo.png" alt="WA Instalações" width="220">
 </p>
 
-## 📖 Sobre o Projeto
+## Sobre o Projeto
 
 Website institucional desenvolvido para a **WA Instalações**, empresa especializada em soluções para construção, reformas e instalações prediais.
 
