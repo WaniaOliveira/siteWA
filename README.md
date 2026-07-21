@@ -1,7 +1,7 @@
-# Instalações WA
+# WA Instalações 
 
 <p align="center">
-  <img src="logo.png" alt="WA Instalações" width="220">
+  <img src="logo3.png" alt="WA Instalações" width="220">
 </p>
 
 ## Sobre o Projeto
