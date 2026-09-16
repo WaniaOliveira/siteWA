@@ -1,29 +1,23 @@
-# WA Instalações 
+ WA Instalações
 
-## Sobre o Projeto
+Site institucional desenvolvido para a WA Instalações, empresa especializada em serviços de instalações, reformas e soluções prediais.
 
-Website institucional desenvolvido para a **WA Instalações**, empresa especializada em soluções para construção, reformas e instalações prediais.
+O projeto foi desenvolvido com o objetivo de apresentar os serviços da empresa de forma clara, moderna e profissional, com uma experiência adaptada para computadores, tablets e smartphones.
 
-O objetivo do projeto é apresentar os serviços da empresa de forma moderna, responsiva e profissional, proporcionando uma excelente experiência ao usuário em dispositivos móveis e desktops.
+ Serviços
 
----
+- Instalações elétricas
+- Instalações hidráulicas
+- Iluminação em LED
+- Pequenas reformas
+- Pintura residencial e comercial
+- Sistemas de CFTV
+- Redes lógicas
+- Sistemas de detecção de incêndio
+- Infraestrutura com eletrocalhas
+- Montagem de quadros elétricos
 
-##  Serviços
-
--  Instalações Elétricas
--  Instalações Hidráulicas
--  Iluminação em LED
--  Pequenas Reformas
--  Pintura Residencial e Comercial
--  Sistemas de CFTV
--  Redes Lógicas
--  Sistemas de Detecção de Incêndio
--  Infraestrutura com Eletrocalhas
--  Montagem de Quadros Elétricos
-
----
-
-##  Tecnologias Utilizadas
+ Tecnologias utilizadas
 
 - HTML5
 - CSS3
@@ -32,87 +26,54 @@ O objetivo do projeto é apresentar os serviços da empresa de forma moderna, re
 - Font Awesome
 - AOS (Animate On Scroll)
 
----
+ Funcionalidades
 
-##  Funcionalidades
-
-- Layout moderno e responsivo
+- Layout responsivo
+- Página institucional em formato One Page
 - Hero com imagens em tela cheia
-- Navegação One Page
 - Menu responsivo
 - Portfólio interativo
 - Depoimentos de clientes
-- Botão flutuante do WhatsApp
+- Botão de contato via WhatsApp
 - Formulário de contato
-- Animações suaves durante a navegação
+- Animações durante a navegação
 - SEO básico
-- Design otimizado para dispositivos móveis
+- Otimização para dispositivos móveis
 
----
+ Responsividade
 
-##  Responsividade
+O site foi desenvolvido para oferecer uma boa experiência de navegação em:
 
-O projeto foi desenvolvido para funcionar perfeitamente em:
-
-- Desktop
-- Notebook
-- Tablet
+- Computadores
+- Notebooks
+- Tablets
 - Smartphones
 
----
+ Identidade visual
 
-##  Identidade Visual
+A identidade visual utiliza uma combinação de laranja, preto e cinza metálico.
 
-**Paleta de cores**
+- Laranja: `#FF6A00`
+- Preto: `#111111`
+- Cinza metálico: `#6E6E6E`
 
--  Laranja: `#FF6A00`
--  Preto: `#111111`
--  Cinza Metálico: `#6E6E6E`
+ Demonstração
 
----
+O projeto está disponível online:
 
-##  Demonstração
+**[Acessar o site da WA Instalações](https://waniaoliveira.github.io/siteWA/)**
 
-Em breve.
-
----
-
-##  Estrutura do Projeto
+ Estrutura do projeto
 
 ```text
-WA-Instalacoes/
-│
-├── css/
-├── js/
-├── img/
+siteWA/
+├── .github/
+├── imagens/
 ├── imgclientes/
+├── imghero/
+├── logoWA/
 ├── index.html
-├── README.md
-└── favicon.ico
-```
-
----
-
-## Contato
-
-**WA Instalações**
-
-Especialistas em soluções completas para instalações e reformas.
-
- WhatsApp
-
- E-mail
-
- Em breve
-
----
-
-##  Desenvolvimento
-
-Projeto desenvolvido por **Wânia Oliveira** durante seus estudos em **Análise e Desenvolvimento de Sistemas**, aplicando conceitos de desenvolvimento web, design responsivo e experiência do usuário.
-
----
-
-##  Licença
-
-Este projeto possui finalidade institucional para apresentação da empresa WA Instalações.
+├── script.js
+├── style.css
+├── .nojekyll
+└── README.md
