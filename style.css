@@ -1124,12 +1124,14 @@ main section[id] {
     display: block;
     padding: 0.9rem 1rem;
     border-radius: 12px;
+    color: rgba(255, 255, 255, 0.95);
   }
 
   .nav-link:hover,
-  .nav-link:focus {
-    background: rgba(255, 106, 0, 0.1);
-    color: var(--primary);
+  .nav-link:focus,
+  .nav-link.active {
+    background: rgba(255, 106, 0, 0.22);
+    color: var(--white);
   }
 
   .hero-layout {
