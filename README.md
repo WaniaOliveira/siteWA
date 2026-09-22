@@ -84,6 +84,10 @@ siteWA/
 └── README.md
 ```
 
+ Observação
+
+**Observação:** os dados de contato e redes sociais apresentados no site são utilizados para fins demonstrativos neste projeto e podem ser substituídos pelos dados oficiais da empresa após a publicação definitiva.
+
  Desenvolvimento
 
 Projeto desenvolvido por **Wânia Oliveira** como parte do meu portfólio de desenvolvimento web, colocando em prática conhecimentos de HTML, CSS, JavaScript, responsividade, organização de projeto e publicação utilizando GitHub Pages.
